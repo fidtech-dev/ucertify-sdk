@@ -1,0 +1,33 @@
+{
+    "name": "universal-certifier",
+    "version": "0.0.1",
+    "author": "Alan De Renzis <alan.derernzis@fidtech.net>",
+    "description": "Universal certifier SDK module for Certifications integration",
+    "main": "./lib/universal-certifier.js",
+    "scripts": {
+        "test": "./node_modules/.bin/istanbul test ./node_modules/.bin/_mocha -- -R spec"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/fidtech/universal-certifier"
+    },
+    "keywords": [
+        "api",
+        "universal",
+        "certifier",
+        "certification",
+        "blockchain",
+        "sdk"
+    ],
+    "dependencies": {
+        "q": ">=1.1.2",
+        "request": ">=2.48.0"
+    },
+    "devDependencies": {
+        "istanbul": "^0.3.17",
+        "mocha": "^2.2.5"
+    },
+    "engine": {
+        "node": ">=0.6"
+    }
+}
