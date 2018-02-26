@@ -1,9 +1,26 @@
-var UC = require('../lib/universal-certifier')
+const UC = require('../lib/universal-certifier');
+const config = require('./config');
 
-var uc = new UC("<Your_API_Key>","<Your_Secret>");
+const uc = new UC(config.apiKey, config.secret);
+uc.certify(
+  './testfile.jpg',
+  (res, err) => {
+    if (err) throw err;
+    console.log('res');
+    console.log(res);
 
-uc.getCertification("<CertificationID>", function (res,err) {
-  console.log('res:',res);
-  console.log('err', err);
-});
+    // Getting the posted certification back
+    if (res) {
+      uc.getCertification(
+        res.id, (innerRes) => {
+          console.log('Getting back the certification ');
+          console.log(innerRes);
+        },
+        (innerError) => {
+          console.log(innerError);
+        },
+      );
+    }
+  },
+);
 

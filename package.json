@@ -1,7 +1,7 @@
 {
     "name": "universal-certifier",
     "version": "0.0.1",
-    "author": "Alan De Renzis <alan.derernzis@fidtech.net>",
+    "author": "Arias Maximiliano and Alan Derenzis <alan.derernzis@fidtech.net>",
     "description": "Universal certifier SDK module for Certifications integration",
     "main": "./lib/universal-certifier.js",
     "scripts": {
@@ -25,6 +25,12 @@
         "request": ">=2.48.0"
     },
     "devDependencies": {
+        "babel-eslint": "^8.2.2",
+        "eslint": "^4.15.0",
+        "eslint-config-airbnb": "^16.1.0",
+        "eslint-plugin-import": "^2.8.0",
+        "eslint-plugin-jsx-a11y": "^6.0.3",
+        "eslint-plugin-react": "^7.5.1",
         "istanbul": "^0.3.17",
         "mocha": "^2.2.5"
     },
