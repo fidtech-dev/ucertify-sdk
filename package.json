@@ -1,15 +1,15 @@
 {
     "name": "universal-certifier",
-    "version": "0.0.1",
+    "version": "0.1.0",
     "author": "Arias Maximiliano and Alan DeRenzis <maximiliano.arias,alan.derernzis>@fidtech.net",
     "description": "Universal certifier SDK module for Certifications integration",
     "main": "./lib/universal-certifier.js",
     "scripts": {
-        "test": "./node_modules/.bin/istanbul test ./node_modules/.bin/_mocha -- -R spec"
+        "test": "mocha ./test/*.spec.js"
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/fidtech/universal-certifier"
+        "url": "https://github.com/fidtech-dev/ucertify-sdk"
     },
     "keywords": [
         "api",

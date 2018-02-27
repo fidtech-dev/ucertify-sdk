@@ -1,3 +1,10 @@
+[![License](https://img.shields.io/badge/license-MIT-lightgrey.svg?style=flat)](https://github.com/fidtech-dev/ucertify-sdk)
+[![Build Status](https://img.shields.io/travis/fidtech-dev/ucertify-sdk/master.svg)](https://travis-ci.org/fidtech-dev/ucertify-sdk/)
+[![Coverage Status](https://coveralls.io/repos/github/fidtech-dev/ucertify-sdk/badge.svg?branch=master)](https://coveralls.io/github/fidtech-dev/ucertify-sdk?branch=master)
+[![NPM Version](https://img.shields.io/npm/v/fidtech-dev.svg)](http://npmjs.com/package/universal-certifier)
+[![Downloads](https://img.shields.io/npm/dt/fidtech-dev.svg)](http://npmjs.com/package/universal-certifier)
+
+
 # Universal certifier SDK module
 
 * [Install](#install)
