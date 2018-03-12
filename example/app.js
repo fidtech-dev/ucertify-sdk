@@ -3,7 +3,8 @@ const config = require('./config');
 
 const uc = new UC(config.apiKey, config.secret);
 uc.certify(
-  './testfile.jpg',
+  './example/testfile.jpg',
+  true,
   (res, err) => {
     if (err) throw err;
     console.log('res');
