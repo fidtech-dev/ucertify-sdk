@@ -1,6 +1,6 @@
 {
     "name": "universal-certifier",
-    "version": "0.1.4",
+    "version": "2.0.0",
     "author": "Arias Maximiliano and Alan DeRenzis <maximiliano.arias,alan.derernzis>@fidtech.net",
     "description": "Universal certifier SDK module for Certifications integration",
     "main": "./lib/universal-certifier.js",
