@@ -3,6 +3,7 @@
 .DS_Store
 .git
 .hg
+.idea
 .npmrc
 .lock-wscript
 .svn
